@@ -9,4 +9,6 @@ print(type(img))
 print(img.mode)
 
 img_ar=np.array(img)
+a=img_ar.shape
+print(a)
 print(img_ar)
